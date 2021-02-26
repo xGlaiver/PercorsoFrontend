@@ -1,0 +1,29 @@
+@mixin mq1620 {
+    @media only screen and (max-width: 1620px) {
+        @content;
+    }
+}
+
+@mixin mq1366 {
+    @media only screen and (max-width: 1366px) {
+        @content;
+    }
+}
+
+@mixin mq1268 {
+    @media only screen and (max-width: 1268px) {
+        @content;
+    }
+}
+
+@mixin mq1171 {
+    @media only screen and (max-width: 1171px) {
+        @content;
+    }
+}
+
+@mixin mq804 {
+    @media only screen and (max-width: 804px) {
+        @content;
+    }
+}
