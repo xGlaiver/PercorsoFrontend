@@ -1077,6 +1077,12 @@ body {
   border-right: 0.5px solid #fff;
   padding: 4px 5px;
   margin-left: 3px;
+  cursor: pointer;
+}
+
+.price .priceUp p:hover {
+  background-color: rgba(255, 0, 118, 0.5);
+  border-radius: 4px;
 }
 
 @media only screen and (max-width: 1620px) {
@@ -1087,6 +1093,9 @@ body {
 
 .price .priceUp p:last-child {
   border-right: none;
+}
+
+.price .priceUp .activePrice {
   background-color: #FF0076;
   border-radius: 4px;
 }
@@ -1167,6 +1176,15 @@ body {
   left: 75px;
   bottom: 15px;
   cursor: pointer;
+  font-family: "Press Start 2P", cursive;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 @media only screen and (max-width: 1620px) {
@@ -1179,12 +1197,20 @@ body {
   border: 1px solid #fff;
 }
 
+.price table thead tr .singlePrice div button:hover {
+  background-color: #4003CA;
+}
+
 .price table thead tr .standardPrice div hgroup h6, .price table thead tr .standardPrice div hgroup h1, .price table thead tr .standardPrice div hgroup p {
   color: #33FFD9;
 }
 
 .price table thead tr .standardPrice div button {
   border: 1px solid #33FFD9;
+}
+
+.price table thead tr .standardPrice div button:hover {
+  background-color: #2dceb0;
 }
 
 .price table thead tr .standardPrice div .savePrice {
@@ -1214,6 +1240,10 @@ body {
 
 .price table thead tr .proPrice div button {
   border: 1px solid #FF0076;
+}
+
+.price table thead tr .proPrice div button:hover {
+  background-color: #FF0076;
 }
 
 .price table tbody tr .cellLeft {
@@ -1279,6 +1309,15 @@ body {
     outline: 0;
     position: absolute;
     cursor: pointer;
+    font-family: "Press Start 2P", cursive;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
   .price .mobilePrice .singlePriceMobile {
     -webkit-box-shadow: -5px 1px 31px #4003CA;
@@ -1289,6 +1328,9 @@ body {
     border: 1px solid #fff;
     left: 80px;
     bottom: 45px;
+  }
+  .price .mobilePrice .singlePriceMobile button:hover {
+    background-color: #4003CA;
   }
   .price .mobilePrice .standardPriceMobile {
     -webkit-box-shadow: -5px 1px 31px #33FFD9;
@@ -1302,6 +1344,9 @@ body {
     border: 1px solid #33FFD9;
     left: 80px;
     bottom: 45px;
+  }
+  .price .mobilePrice .standardPriceMobile button:hover {
+    background-color: #2dceb0;
   }
   .price .mobilePrice .standardPriceMobile .savePriceMobile {
     position: absolute;
@@ -1331,6 +1376,9 @@ body {
     left: 80px;
     bottom: 25px;
   }
+  .price .mobilePrice .proPriceMobile button:hover {
+    background-color: #FF0076;
+  }
   .price .mobilePrice .proPriceMobile .priceUpMobile {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1344,12 +1392,19 @@ body {
   .price .mobilePrice .proPriceMobile .priceUpMobile p {
     padding: 4px 5px;
     border-right: 0.5px solid #fff;
+    cursor: pointer;
+  }
+  .price .mobilePrice .proPriceMobile .priceUpMobile p:hover {
+    background-color: rgba(255, 0, 118, 0.5);
+    border-radius: 4px;
   }
   .price .mobilePrice .proPriceMobile .priceUpMobile p:last-child {
     border-right: none;
+    margin-left: 5px;
+  }
+  .price .mobilePrice .proPriceMobile .priceUpMobile .activePrice {
     background-color: #FF0076;
     border-radius: 4px;
-    margin-left: 5px;
   }
 }
 

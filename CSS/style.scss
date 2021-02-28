@@ -836,6 +836,12 @@ body {
             border-right: 0.5px solid #fff;
             padding: 4px 5px;
             margin-left: 3px;
+            cursor: pointer;
+
+            &:hover {
+                background-color: rgba($color: #FF0076, $alpha: 0.5);
+                border-radius: 4px;
+            }
 
             @include mq1620 {
                 font-size: 10px;
@@ -843,12 +849,14 @@ body {
 
             &:last-child {
                 border-right: none;
-                background-color: #FF0076;
-                border-radius: 4px;
+
             }
         }
 
-        
+        .activePrice {
+            background-color: #FF0076;
+            border-radius: 4px;
+        }       
     }
 
     table,th,td {
@@ -922,6 +930,10 @@ body {
                             left: 75px;
                             bottom: 15px;
                             cursor: pointer;
+                            font-family: $start;
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-around;
                             
                             @include mq1620 {
                                 left: 40px;
@@ -934,6 +946,10 @@ body {
                     div {
                         button {
                             border: 1px solid #fff;
+
+                            &:hover {
+                                background-color: #4003CA;
+                            }
                         }
                     }
                 }
@@ -948,6 +964,10 @@ body {
 
                         button {
                             border: 1px solid #33FFD9;
+
+                            &:hover {
+                                background-color: #2dceb0;
+                            }
                         }
 
                         .savePrice {
@@ -981,6 +1001,10 @@ body {
 
                         button {
                             border: 1px solid #FF0076;
+
+                            &:hover {
+                                background-color: #FF0076;
+                            }
                         }
                     }
                 }
@@ -1053,6 +1077,10 @@ body {
                     outline: 0;
                     position: absolute;
                     cursor: pointer;
+                    font-family: $start;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
                 }
             }
 
@@ -1064,6 +1092,10 @@ body {
                     border: 1px solid #fff;
                     left: 80px;
                     bottom: 45px;
+
+                    &:hover {
+                        background-color: #4003CA;
+                    }
                 }
             }
 
@@ -1081,6 +1113,10 @@ body {
                     border: 1px solid #33FFD9;
                     left: 80px;
                     bottom: 45px;
+
+                    &:hover {
+                        background-color: #2dceb0;
+                    }
                 }
 
                 .savePriceMobile {
@@ -1112,6 +1148,10 @@ body {
                     border: 1px solid #FF0076;
                     left: 80px;
                     bottom: 25px;
+
+                    &:hover {
+                        background-color: #FF0076;
+                    }
                 }
 
                 .priceUpMobile {
@@ -1123,14 +1163,23 @@ body {
                     p {
                         padding: 4px 5px;
                         border-right: 0.5px solid #fff;
+                        cursor: pointer;
+
+                        &:hover {
+                            background-color: rgba($color: #FF0076, $alpha: 0.5);
+                            border-radius: 4px;
+                        }
 
                         &:last-child {
                             border-right: none;
-                            background-color: #FF0076;
-                            border-radius: 4px;
                             margin-left: 5px;       
                         }
                     }
+
+                    .activePrice {
+                        background-color: #FF0076;
+                        border-radius: 4px;
+                    }  
                 }
             }
         }
