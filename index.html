@@ -21,10 +21,9 @@
             <a class="logo" href="https://universapp.tech/"><img src="https://imgur.com/hOuVyLT.png" alt="logo"></a>
             <nav>
                 <ul class="nav__list">
-                    <li><a href="https://universapp.tech/p/Percorsi/" class="nav__item nav__item_1">PERCORSI</a></li>
-                    <li><a href="https://universapp.tech/p/Pricing/" class="nav__item nav__item_2">PRICING</a></li>
-                    <li><a href="https://universapp.tech/p/Pricing/" class="nav__item nav__item_4">AZIENDE</a></li>
-                    <li><a href="https://universapp.tech/p/Pricing/" class="nav__item nav__item_5">OFFERTE LAVORO</a></li>
+                    <li><a href="https://universapp.tech/p/percorsi/" class="nav__item nav__item_1">PERCORSI</a></li>
+                    <li><a href="https://universapp.tech/p/aziende" class="nav__item nav__item_4">AZIENDE</a></li>
+                    <li><a href="https://universapp.tech/p/offerte-lavoro" class="nav__item nav__item_5">OFFERTE LAVORO</a></li>
                     <li><a href="https://sso.teachable.com/secure/418132/users/sign_up?flow_school_id=418132" class="nav__item nav__item_3">SIGN_UP / LOG_IN</a></li>
                 </ul>
                 <div class="hamburger open-links">
@@ -36,10 +35,9 @@
             <div class="overlay">
                 <a href="javascript:void(0)" class="close-links">&times;</a>
                 <div class="overlay-links">
-                  <a class="nav__item_1" href="https://universapp.tech/p/Percorsi/">PERCORSI</a>
-                  <a class="nav__item_2" href="https://universapp.tech/p/Pricing/">PRICING</a>
-                  <a class="nav__item_4" href="#">AZIENDE</a>
-                  <a class="nav__item_5" href="#">OFFERTE LAVORO</a>
+                  <a class="nav__item_1" href="https://universapp.tech/p/percorsi/">PERCORSI</a>
+                  <a class="nav__item_4" href="https://universapp.tech/p/aziende">AZIENDE</a>
+                  <a class="nav__item_5" href="https://universapp.tech/p/offerte-lavoro">OFFERTE LAVORO</a>
                   <a class="nav__item_3" href="https://sso.teachable.com/secure/418132/users/sign_up?flow_school_id=418132">SIGN_UP / LOG_IN</a>
                 </div>
               </div>
@@ -100,7 +98,7 @@
         </section>
 
         <!----------------- Path ----------------->
-        <section class="path">
+        <section id="pathZone" class="path">
             <div class="path__top">
                 <h2>Percorso</h2>
                 <div class="line-path"></div>
@@ -109,7 +107,7 @@
                 <section class="level level-1">
                     <div class="level_text">
                         <hgroup>
-                            <h3>1 / HTML & CSS</h3>
+                            <a href="https://universapp.tech/p/html-css-base"><h3>1 / HTML & CSS</h3></a>
                             <p>Impara a sviluppare siti completamente da zero. Con HTML e CSS sarai in grado di implementare la struttura e lo stile di una pagina web. Pratica con le tecnologie più moderne, come Flexbox, Grid e tanto altro.</p>
                         </hgroup>
                     </div>
@@ -133,7 +131,7 @@
                 <section class="level level-2">
                     <div class="level_text">
                         <hgroup>
-                            <h3>2 / CSS avanzato</h3>
+                            <a href="https://universapp.tech/p/css-avanzato-standard"><h3>2 / CSS avanzato</h3></a>
                             <p>Porta le tue skill al prossimo livello. Crea splendide e interattive animazioni, sfrutta SASS per implementare lo stile in modo semplice e rapido.</p>
                         </hgroup>
                     </div>
@@ -160,7 +158,7 @@
                 <section class="level level-3">
                     <div class="level_text">
                         <hgroup>
-                            <h3>3 / Javascript</h3>
+                            <a href="https://universapp.tech/p/javascript-standard"><h3>3 / Javascript</h3></a>
                             <p>Impara uno dei linguaggi di programmazione più utilizzati al mondo. Manipola il DOM, gestisci Javascript asincrono, utilizza la programmazione orientata agli oggetti. Conoscerai le versioni più moderne di JS per diventare uno sviluppatore completo</p>
                         </hgroup>
                     </div>
@@ -184,7 +182,7 @@
                 <section class="level level-4">
                     <div class="level_text">
                         <hgroup>
-                            <h3>4 / React</h3>
+                            <a href="https://universapp.tech/p/react-standard"><h3>4 / React</h3></a>
                             <p>Utilizza React, la libreria creata da Facebook, per sviluppare delle web app complete e performanti. Insieme ad altre tecnologie, come React Router, Redux e Firebase, potrai creare tutto ciò che vuoi</p>
                         </hgroup>
                     </div>
@@ -208,7 +206,7 @@
                 <section class="level level-4">
                     <div class="level_text">
                         <hgroup>
-                            <h3>5 / React Native</h3>
+                            <a href="https://universapp.tech/p/react-native-italiano-standard"><h3>5 / React Native</h3></a>
                             <p>Impara React Native, il framework basato su React, che ti permette di creare applicazioni per iOS e Android, condividendo quasi tutto il codice. Dai vita a splendide app mobile e pubblicale negli store per raggiungere il tuo obiettivo</p>
                         </hgroup>
                     </div>
@@ -256,7 +254,7 @@
                                     <p class="textSmall">a partire da</p>
                                     <p class="textPrice">Scegli il corso singolo più adatto alle tue necessità</p>
                                 </hgroup>
-                                <a href="#"><button>Scegli <img src="https://i.imgur.com/1UaF3g5.png" alt="Vector"></button></a>
+                                <a href="#pathZone"><button>Scegli <img src="https://i.imgur.com/1UaF3g5.png" alt="Vector"></button></a>
                             </div>
                         </th>
                         <th class="headingCellPrice standardPrice">
@@ -279,7 +277,7 @@
                                     <p class="textSmall" id="time">6 mesi</p>
                                     <p class="textPrice">accedi a tutti i percorsi, fatti assistere dai nostri tutor e diventa un pro</p>
                                 </hgroup>
-                                <a href="https://sso.teachable.com/secure/418132/checkout/2727323/percorso-sviluppo-web-app"><button>Scegli<img src="https://i.imgur.com/1UaF3g5.png" alt="Vector"></button></a>
+                                <a id="linkProPrice" href="#"><button>Scegli<img src="https://i.imgur.com/1UaF3g5.png" alt="Vector"></button></a>
                             </div>
                         </th>
                     </tr>
@@ -388,7 +386,7 @@
                         <p class="textSmall">a partire da</p>
                         <p class="textPrice">Scegli il corso singolo più adatto alle tue necessità</p>
                     </hgroup>
-                    <a href="#"><button>Scegli <img src="https://i.imgur.com/1UaF3g5.png" alt="Vector"></button></a>
+                    <a id="linkProPrice" href="#"><button>Scegli <img src="https://i.imgur.com/1UaF3g5.png" alt="Vector"></button></a>
                 </div>
                 <div class="standardPriceMobile">
                     <hgroup>
@@ -426,7 +424,7 @@
             <div class="standardPath__inside">
                 <div class="standardPath__singleContainer">
                     <div>
-                        <img src="https://media.giphy.com/media/Dt2wyhpKnhwN9Nac5H/giphy.gif" alt="Revisione del codice">
+                        <img src="https://media.giphy.com/media/xsF1FSDbjguis/giphy.gif" alt="Accesso illimitato">
                     </div>
                     <div class="standardPath__singleContainer__inside">
                         <h6>Accesso illimitato al percorso</h6>
@@ -490,7 +488,7 @@
                 </div>
                 <div class="proPath__singleContainer">
                     <div>
-                        <img src="https://media.giphy.com/media/kqjgA9Vk9CvM0q2uEY/giphy.gif" alt="Certificato Finale">
+                        <img src="https://media.giphy.com/media/kIVVupOM0VoW3bNuU7/giphy.gif" alt="Community di supporto">
                     </div>  
                     <div class="proPath__singleContainer__inside">
                         <h6>Community di supporto</h6>
